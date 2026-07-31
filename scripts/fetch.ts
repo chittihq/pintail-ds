@@ -25,12 +25,16 @@ function resolveHash(): string {
   return ref
 }
 
-interface ManifestFile {
+interface ManifestPart {
   name: string
   bytes: number
   sha256: string
-  rows: number
   urls?: string[]
+}
+
+interface ManifestFile extends ManifestPart {
+  rows: number
+  parts?: ManifestPart[]
 }
 
 interface Manifest {
@@ -60,6 +64,37 @@ for (const file of manifest.files) {
   } else if (existsSync(target) && (await sha256(target)) === file.sha256) {
     console.log(`cached   ${file.name}`)
     continue
+  } else if (file.parts && file.parts.length > 0) {
+    const buffers: Uint8Array[] = []
+    let partsOk = true
+    for (const part of file.parts) {
+      let bytes: Uint8Array | undefined
+      for (const url of part.urls ?? []) {
+        try {
+          const response = await fetch(url)
+          if (!response.ok) continue
+          bytes = new Uint8Array(await response.arrayBuffer())
+          break
+        } catch {}
+      }
+      if (!bytes || createHash('sha256').update(bytes).digest('hex') !== part.sha256) {
+        console.error(`FAILED part ${part.name} of ${file.name}`)
+        partsOk = false
+        break
+      }
+      buffers.push(bytes)
+    }
+    if (!partsOk) {
+      failures += 1
+      continue
+    }
+    const whole = new Uint8Array(buffers.reduce((a, b) => a + b.length, 0))
+    let offset = 0
+    for (const buffer of buffers) {
+      whole.set(buffer, offset)
+      offset += buffer.length
+    }
+    writeFileSync(target, whole)
   } else {
     let fetched = false
     for (const url of file.urls ?? []) {
