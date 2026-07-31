@@ -1,0 +1,148 @@
+{
+  "workload": "commerce-production-v1",
+  "hash": "3d0d9f729aacfbec",
+  "profile": "ci",
+  "scale": 0.01,
+  "seed": 42,
+  "seederVersion": "fae05595cd202a72",
+  "generatedAt": "2026-07-31T05:41:58.084Z",
+  "mysqlImage": "mysql:8.4",
+  "format": "mysqldump-tab-tsv+zstd",
+  "files": [
+    {
+      "name": "tenants.tsv.zst",
+      "bytes": 4038,
+      "sha256": "4b74ee0035e01d1dde4cd44527133a0f4e67532ba998cfc9bae66c118b7b957f",
+      "rows": 100,
+      "urls": [
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/3d0d9f729aacfbec/data/tenants.tsv.zst"
+      ]
+    },
+    {
+      "name": "customers.tsv.zst",
+      "bytes": 412513,
+      "sha256": "6faded327dc4504dcea32dd9b3c37eb97c8b7e1a71e8f51d60ae73c983347e8f",
+      "rows": 10000,
+      "urls": [
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/3d0d9f729aacfbec/data/customers.tsv.zst"
+      ]
+    },
+    {
+      "name": "customer_addresses.tsv.zst",
+      "bytes": 494998,
+      "sha256": "be6700d52e92cb8748a6b407655cf61e0e2c287089bd42fef956aa28bf19bfde",
+      "rows": 20000,
+      "urls": [
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/3d0d9f729aacfbec/data/customer_addresses.tsv.zst"
+      ]
+    },
+    {
+      "name": "categories.tsv.zst",
+      "bytes": 2598,
+      "sha256": "8d276c53430b5543f5f836137fea5f52420e242f97f944f3aba5e21f14c71c11",
+      "rows": 100,
+      "urls": [
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/3d0d9f729aacfbec/data/categories.tsv.zst"
+      ]
+    },
+    {
+      "name": "products.tsv.zst",
+      "bytes": 50058,
+      "sha256": "5078c798af94d999c90c6549a3a2c99650f9e3dc60cddcaac47cc8e63f33919d",
+      "rows": 1000,
+      "urls": [
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/3d0d9f729aacfbec/data/products.tsv.zst"
+      ]
+    },
+    {
+      "name": "product_variants.tsv.zst",
+      "bytes": 87856,
+      "sha256": "b64b64868277fe233d15b8571ed8921fc92ade141cd774d55850c8a4a58f71c7",
+      "rows": 2500,
+      "urls": [
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/3d0d9f729aacfbec/data/product_variants.tsv.zst"
+      ]
+    },
+    {
+      "name": "warehouses.tsv.zst",
+      "bytes": 175,
+      "sha256": "b31bd65bcaab18f45e2433a2c07f400c0097c88985328c5d3335a5157a9d20f6",
+      "rows": 4,
+      "urls": [
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/3d0d9f729aacfbec/data/warehouses.tsv.zst"
+      ]
+    },
+    {
+      "name": "inventory_balances.tsv.zst",
+      "bytes": 177139,
+      "sha256": "f34b007cf0091c9e6e7fbbe6685b25d1e71faa22c7a580a05266e4e0a5963bc4",
+      "rows": 80000,
+      "urls": [
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/3d0d9f729aacfbec/data/inventory_balances.tsv.zst"
+      ]
+    },
+    {
+      "name": "orders.tsv.zst",
+      "bytes": 13228381,
+      "sha256": "857cbf5b1ea281c29ca0388873820bc292bf3e78abd50c3b7d79513b740bd12d",
+      "rows": 200000,
+      "urls": [
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/3d0d9f729aacfbec/data/orders.tsv.zst"
+      ]
+    },
+    {
+      "name": "order_items.tsv.zst",
+      "bytes": 12238617,
+      "sha256": "dc7e8a07eea23b152b85e2d94a3b9cb1dca3ecf536cc6fb286526b2e1f13778c",
+      "rows": 530476,
+      "urls": [
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/3d0d9f729aacfbec/data/order_items.tsv.zst"
+      ]
+    },
+    {
+      "name": "payments.tsv.zst",
+      "bytes": 8178583,
+      "sha256": "16d3f6af17459b9c5de7a82a09ade0dffcf834dfe74d704b75cb3b0fba26e5d4",
+      "rows": 235174,
+      "urls": [
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/3d0d9f729aacfbec/data/payments.tsv.zst"
+      ]
+    },
+    {
+      "name": "refunds.tsv.zst",
+      "bytes": 498763,
+      "sha256": "fd3dd657e2d58efca708bc1cc7fabd0f4135e9559cda713575268f7c21cbd30a",
+      "rows": 18150,
+      "urls": [
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/3d0d9f729aacfbec/data/refunds.tsv.zst"
+      ]
+    },
+    {
+      "name": "shipments.tsv.zst",
+      "bytes": 7577491,
+      "sha256": "950ef8ce278fe11488faf9deb328a3a0684acbd5d71a8380d029ef6fbd6802f6",
+      "rows": 200644,
+      "urls": [
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/3d0d9f729aacfbec/data/shipments.tsv.zst"
+      ]
+    },
+    {
+      "name": "shipment_items.tsv.zst",
+      "bytes": 4583732,
+      "sha256": "f41bf56377cb859007748d1da74260b4c225c376c652a0f68e0903611cadc385",
+      "rows": 454357,
+      "urls": [
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/3d0d9f729aacfbec/data/shipment_items.tsv.zst"
+      ]
+    },
+    {
+      "name": "order_events.tsv.zst",
+      "bytes": 13562384,
+      "sha256": "6c9a089eea5bfe0cefe71910976b91064976c97b09a61798a53d0b868dd0f064",
+      "rows": 999359,
+      "urls": [
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/3d0d9f729aacfbec/data/order_events.tsv.zst"
+      ]
+    }
+  ]
+}

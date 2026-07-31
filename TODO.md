@@ -2,7 +2,7 @@
 
 - [x] pintail-ds scaffold: manifest/alias scheme, sha256-verifying fetch script
 - [x] smoke dataset published (hash 248ae39a6042a9f3, 0.6 MB, in-repo)
-- [ ] ci dataset published (1%, generating — commit on completion)
+- [x] ci dataset published (1%, 61 MB, hash 3d0d9f729aacfbec, in-repo)
 - [x] 1. `--dataset <alias>` mode in pintail's `benchmark/run-production.ts`:
       fetch via manifest → decompress → `LOAD DATA INFILE` (FK/unique checks off,
       binlog off) → secondary indexes created after load (single ALTER per table)
