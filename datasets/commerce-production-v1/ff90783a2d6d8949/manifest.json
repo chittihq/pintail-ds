@@ -1,11 +1,11 @@
 {
   "workload": "commerce-production-v1",
-  "hash": "248ae39a6042a9f3",
+  "hash": "ff90783a2d6d8949",
   "profile": "smoke",
   "scale": 0.0001,
   "seed": 42,
-  "seederVersion": "fae05595cd202a72",
-  "generatedAt": "2026-07-31T05:23:42.298Z",
+  "seederVersion": "3412474dd4678839",
+  "generatedAt": "2026-07-31T08:42:31.418Z",
   "mysqlImage": "mysql:8.4",
   "format": "mysqldump-tab-tsv+zstd",
   "files": [
@@ -15,7 +15,7 @@
       "sha256": "f8e6a8439c13c990e21f5e3542987119bd7fc2c8dc2c027983c97f6efeb51ab2",
       "rows": 10,
       "urls": [
-        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/248ae39a6042a9f3/data/tenants.tsv.zst"
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/ff90783a2d6d8949/data/tenants.tsv.zst"
       ]
     },
     {
@@ -24,7 +24,7 @@
       "sha256": "68560f385344c7d8fa3a2899d9b79290e179c5f6a187380a00b09306f5d9f204",
       "rows": 100,
       "urls": [
-        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/248ae39a6042a9f3/data/customers.tsv.zst"
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/ff90783a2d6d8949/data/customers.tsv.zst"
       ]
     },
     {
@@ -33,7 +33,7 @@
       "sha256": "fb9ea8b2cdd91c8f29496fc785f0be971db92d6447712bfb461ad2baa16237e5",
       "rows": 200,
       "urls": [
-        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/248ae39a6042a9f3/data/customer_addresses.tsv.zst"
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/ff90783a2d6d8949/data/customer_addresses.tsv.zst"
       ]
     },
     {
@@ -42,7 +42,7 @@
       "sha256": "d4879715fd64157405ef4b6559eee347f3c9767756e0e621ffb9238eb90ac3bc",
       "rows": 20,
       "urls": [
-        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/248ae39a6042a9f3/data/categories.tsv.zst"
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/ff90783a2d6d8949/data/categories.tsv.zst"
       ]
     },
     {
@@ -51,7 +51,7 @@
       "sha256": "8994da7456d48e5e26fef7ca4c90fdce7986d6a12f984ee156690c82b6b1a831",
       "rows": 50,
       "urls": [
-        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/248ae39a6042a9f3/data/products.tsv.zst"
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/ff90783a2d6d8949/data/products.tsv.zst"
       ]
     },
     {
@@ -60,7 +60,7 @@
       "sha256": "51b7164058a9f4df6d7b27c775d0d8eca3c4ce131af22fb9d2786fb1c7be745f",
       "rows": 80,
       "urls": [
-        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/248ae39a6042a9f3/data/product_variants.tsv.zst"
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/ff90783a2d6d8949/data/product_variants.tsv.zst"
       ]
     },
     {
@@ -69,7 +69,7 @@
       "sha256": "63a3ecf801b29001ca631c254c6c61281d5cb51beaf55154069f5c93af3762a9",
       "rows": 4,
       "urls": [
-        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/248ae39a6042a9f3/data/warehouses.tsv.zst"
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/ff90783a2d6d8949/data/warehouses.tsv.zst"
       ]
     },
     {
@@ -78,7 +78,7 @@
       "sha256": "ddfcb29e947d8dd9312e8d508b39aae62c755f31af6d35365c2a8e90b554f8f8",
       "rows": 800,
       "urls": [
-        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/248ae39a6042a9f3/data/inventory_balances.tsv.zst"
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/ff90783a2d6d8949/data/inventory_balances.tsv.zst"
       ]
     },
     {
@@ -87,7 +87,7 @@
       "sha256": "05b98c6aeb3c438732630d8e959395ddaa4acdf837404290dce9ccf71f0bb829",
       "rows": 2000,
       "urls": [
-        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/248ae39a6042a9f3/data/orders.tsv.zst"
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/ff90783a2d6d8949/data/orders.tsv.zst"
       ]
     },
     {
@@ -96,7 +96,7 @@
       "sha256": "c943b1601cfb339f71667ad08ea2e8f0abebd03f44511fb3c138cd7ef50929d4",
       "rows": 5221,
       "urls": [
-        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/248ae39a6042a9f3/data/order_items.tsv.zst"
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/ff90783a2d6d8949/data/order_items.tsv.zst"
       ]
     },
     {
@@ -105,7 +105,7 @@
       "sha256": "223b5e6776f4b1fb476415bbe17552f26f127d75a4a9bca84ef23f55d702c8c8",
       "rows": 2335,
       "urls": [
-        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/248ae39a6042a9f3/data/payments.tsv.zst"
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/ff90783a2d6d8949/data/payments.tsv.zst"
       ]
     },
     {
@@ -114,7 +114,7 @@
       "sha256": "b1842c3a2346320e166f291c18e5126ebac88588a63d6825a529906da65e5356",
       "rows": 177,
       "urls": [
-        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/248ae39a6042a9f3/data/refunds.tsv.zst"
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/ff90783a2d6d8949/data/refunds.tsv.zst"
       ]
     },
     {
@@ -123,7 +123,7 @@
       "sha256": "5ea1e1faee5d4677b24e652ed7a67bfd26f21288bedf82753782869bca05db2c",
       "rows": 2029,
       "urls": [
-        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/248ae39a6042a9f3/data/shipments.tsv.zst"
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/ff90783a2d6d8949/data/shipments.tsv.zst"
       ]
     },
     {
@@ -132,7 +132,7 @@
       "sha256": "ac4bf5d27cf0fe0b1dc700f9a9bdf62e3e2886a919e184e59024228b7fd85f7c",
       "rows": 4493,
       "urls": [
-        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/248ae39a6042a9f3/data/shipment_items.tsv.zst"
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/ff90783a2d6d8949/data/shipment_items.tsv.zst"
       ]
     },
     {
@@ -141,7 +141,7 @@
       "sha256": "d611ebe921c5a8d8e69a92b8b90cfa040efefff69e4b9055ef378fbff886d278",
       "rows": 10050,
       "urls": [
-        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/248ae39a6042a9f3/data/order_events.tsv.zst"
+        "https://github.com/chittihq/pintail-ds/raw/main/datasets/commerce-production-v1/ff90783a2d6d8949/data/order_events.tsv.zst"
       ]
     }
   ]
